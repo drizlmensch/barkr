@@ -9,7 +9,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
 global.toastr = require("toastr")
-import "../stylesheets/application"
+import "../stylesheets/applications"
 
 Rails.start()
 Turbolinks.start()
