@@ -1,7 +1,7 @@
-class App extends ReactComponent{ 
-  render(){
-    return(<h1>Test Successful</h1>);
-  }
+import React from 'react';
+
+const App = () => {
+    return(<h1>Barkr</h1>);
 };
 
 export default App;
