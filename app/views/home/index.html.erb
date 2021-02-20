@@ -1,8 +1,20 @@
 <div id="root"></div>
 
+<% dog_1 = asset_path 'labrador_retrievers' %>
+<% dog_2 = asset_path 'bulldog_puppy' %>
+<% dog_3 = asset_path 'mixed_breed' %>
+
 <%= content_tag :div,
-  id: "href_data",
-  data: { login: new_user_session_url, signup: new_user_registration_url }.to_json do %>
+  id: :"path_data",
+  data: { 
+    login: new_user_session_url, 
+    signup: new_user_registration_url,
+    images: [
+      dog_1,
+      dog_2,
+      dog_3
+    ]
+  }.to_json do %>
 <% end %>
 
 <%= javascript_pack_tag 'index' %>
