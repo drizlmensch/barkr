@@ -11,7 +11,7 @@ module Barkr
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
-    config.log_level = :warn
+    config.log_level = :debug
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
