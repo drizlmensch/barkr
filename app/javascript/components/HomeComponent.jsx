@@ -23,7 +23,7 @@ class Home extends React.Component {
               src={this.props.images[0]}
             />
             <Carousel.Caption>
-              <p>Create a profile for one or more of your dogs</p>
+              <h2>Create a profile for one or more of your dogs</h2>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -32,7 +32,7 @@ class Home extends React.Component {
               src={this.props.images[1]}
             />
             <Carousel.Caption>
-              <p>Match with puppies of a certain age or size</p>
+              <h2>Match with puppies of a certain age or size</h2>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -41,7 +41,7 @@ class Home extends React.Component {
               src={this.props.images[2]}
             />
             <Carousel.Caption>
-              <p>Find a time and place that's convenient for you</p>
+              <h2>Find a time and place that's convenient for you</h2>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
